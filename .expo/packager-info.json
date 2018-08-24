@@ -1,8 +1,8 @@
 {
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 99890,
-  "expoServerNgrokUrl": "https://wm-vcd.leonkong.daily-weather.exp.direct",
-  "packagerNgrokUrl": "https://packager.wm-vcd.leonkong.daily-weather.exp.direct",
-  "ngrokPid": 99916
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }
