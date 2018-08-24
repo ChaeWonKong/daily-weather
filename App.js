@@ -4,7 +4,7 @@ import Weather from "./Weather";
 
 export default class App extends React.Component {
   state = {
-    isLoaded: true
+    isLoaded: false
   };
   render() {
     const { isLoaded } = this.state;
