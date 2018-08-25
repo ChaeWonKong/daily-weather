@@ -11,7 +11,7 @@ import Weather from "./Weather";
 
 const API_KEY = "0091bcdea256e1362051f02921cc915d";
 
-export default class App extends React.Component {
+export default class App extends Component {
   state = {
     isLoaded: false,
     error: null,
@@ -44,12 +44,12 @@ export default class App extends React.Component {
       });
   };
   render() {
-    const { isLoaded, error } = this.state;
+    const { isLoaded, error, temperature, name } = this.state;
     return (
       <View style={styles.container}>
         <StatusBar hidden={true} />
         {isLoaded ? (
-          <Weather />
+          <Weather weatherName={name} temp={Math.floor(temperature - 273.15)} />
         ) : (
           <View style={styles.loading}>
             <ActivityIndicator size="large" style={styles.lodingSign} />

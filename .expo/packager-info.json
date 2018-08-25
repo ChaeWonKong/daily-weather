@@ -1,8 +1,8 @@
 {
   "expoServerPort": 19000,
-  "packagerPort": 19002,
-  "packagerPid": 24575,
+  "packagerPort": 19001,
+  "packagerPid": 28748,
   "expoServerNgrokUrl": "https://wp-8s7.leonkong.daily-weather.exp.direct",
   "packagerNgrokUrl": "https://packager.wp-8s7.leonkong.daily-weather.exp.direct",
-  "ngrokPid": 24587
+  "ngrokPid": 28759
 }
